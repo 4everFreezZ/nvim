@@ -27,23 +27,40 @@ This is a my settings for LazyVim. a Neovim configuration that aims to provide a
 - [navarasu/onedark.nvim](https://github.com/navarasu/onedark.nvim)
   ![img](https://github.com/user-attachments/assets/815a853c-9155-4189-9ba4-b81cdd1fad6b)
 
-### Navigating Quickly
-
-- [folke/flash.nvim](https://github.com/folke/flash.nvim)- provides a quick way to navigate through text.
-
 ### File Explorer
 
 - [nvim-tree/nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua) - file explorer for Neovim written in Lua.
   ![Image](https://github.com/user-attachments/assets/c9b5eacc-19b7-4129-a5f7-2b050e3ee42b)
 
-### VS Code Like Icons
-
-- [nvim-tree/nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons)
-
 ### Auto Sessions
 
 - [rmagatti/auto-session](https://github.com/rmagatti/auto-session) - automatically saves and restores sessions.
   ![Image](https://github.com/user-attachments/assets/aca21edd-057a-463c-8278-40e170bd7d83)
+
+### Fuzzy Finder
+
+- [nvim-telescope/telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) - highly extendable fuzzy finder over lists.
+  ![Image](https://github.com/user-attachments/assets/378d2463-1346-4a0d-8244-8f3ee955ede0)
+- [ibhagwan/fzf-lua](https://github.com/ibhagwan/fzf-lua) - FZF integration for Neovim .
+  ![Image](https://github.com/user-attachments/assets/5e0cfd3d-15b1-43c4-881e-05a2aead752f)
+
+### Todo Comments
+
+- [folke/todo-comments.nvim](https://github.com/folke/todo-comments.nvim) - Highlight, list and search todo comments.
+  ![Image](https://github.com/user-attachments/assets/c0d54e8c-49b5-4144-838a-b704be6691b2)
+
+### Git
+
+- [kdheepak/lazygit.nvim](https://github.com/kdheepak/lazygit.nvim) - use lazygit within Neovim.
+![Image](https://github.com/user-attachments/assets/3713e628-6022-40d7-9f06-01f9174d3ca9)
+
+### Navigating Quickly
+
+- [folke/flash.nvim](https://github.com/folke/flash.nvim)- provides a quick way to navigate through text.
+
+### VS Code Like Icons
+
+- [nvim-tree/nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons)
 
 ### Status Line
 
@@ -52,13 +69,6 @@ This is a my settings for LazyVim. a Neovim configuration that aims to provide a
 ### Buffer Line
 
 - [akinsho/bufferline.nvim](https://github.com/akinsho/bufferline.nvim) - better buffer line.
-
-### Fuzzy Finder
-
-- [nvim-telescope/telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) - highly extendable fuzzy finder over lists.
-  ![Image](https://github.com/user-attachments/assets/378d2463-1346-4a0d-8244-8f3ee955ede0)
-- [ibhagwan/fzf-lua](https://github.com/ibhagwan/fzf-lua) - FZF integration for Neovim .
-  ![Image](https://github.com/user-attachments/assets/5e0cfd3d-15b1-43c4-881e-05a2aead752f)
 
 ### Autocompletion
 
@@ -76,17 +86,10 @@ This is a my settings for LazyVim. a Neovim configuration that aims to provide a
 
 - [folke/trouble.nvim](https://github.com/folke/trouble.nvim) - pretty diagnostics, references, telescope results, quickfix and location list.
 
-### Todo Comments
-
-- [folke/todo-comments.nvim](https://github.com/folke/todo-comments.nvim) - Highlight, list and search todo comments.
-  ![Image](https://github.com/user-attachments/assets/c0d54e8c-49b5-4144-838a-b704be6691b2)
-
 ### Treesitter Syntax Highlighting & Autoclosing
 
 - [nvim-treesitter/nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) - Treesitter configuration.
 - [windwp/nvim-autopairs](https://github.com/windwp/nvim-autopairs) - Autoclose brackets, parens, quotes, etc...
 
-### Git
 
-- [kdheepak/lazygit.nvim](https://github.com/kdheepak/lazygit.nvim) - use lazygit within Neovim.
 
