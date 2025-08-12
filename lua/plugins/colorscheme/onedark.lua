@@ -1,6 +1,7 @@
 return {
   "navarasu/onedark.nvim",
   priority = 1000, -- make sure to load this before all the other start plugins
+  transparent = true, -- 是否启用透明背景
   config = function()
     require("onedark").setup({
       style = "dark",
@@ -16,19 +17,21 @@ return {
         functions = { "italic", "bold" },
         variables = { "bold" },
         -- sidebars 和 floats 的透明度设置
-        sidebars = transparent and "transparent" or "dark",
-        floats = transparent and "transparent" or "dark",
+        --TODO: 需要在 onedark.nvim 中添加对 sidebars 和 floats 的透明度支持
+        --sidebars = transparent and "transparent" or "dark",
+        --floats = transparent and "transparent" or "dark",
       },
 
       lualine = {
         transparent = false, -- 让 onedark 控制 lualine 背景透明
       },
 
-      -- 禁用特定插件的背景 (移除 "lualine")
+      --TODO: 禁用特定插件的背景
       disable_background = {
         "cmp",
         "dap",
         "gitsigns",
+        "which-key",
       },
     })
     -- Enable theme
