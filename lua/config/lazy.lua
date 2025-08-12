@@ -59,4 +59,4 @@ require("lazy").setup({
   },
 })
 -- 设置默认颜色主题
--- vim.cmd.colorscheme("tokyonight")
+vim.cmd.colorscheme("onedark")
