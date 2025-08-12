@@ -11,7 +11,7 @@ This is a my settings for LazyVim, a Neovim configuration that aims to provide a
 
 ## Colorscheme Example
 - [folke/tokyonight.nvim](https://github.com/folke/tokyonight.nvim)
-![1754971888154](image/README/1754971888154.png)
+![img](https://github.com/user-attachments/assets/ef4b2bd6-853a-4fee-b31d-4c6bc1dbfd29)
 
 ## Plugins
 ![alt text](<CleanShot/plugins.gif>)
