@@ -18,6 +18,7 @@ return {
         telescope = true,
         notify = false,
         mini = false,
+        which_key = true,
         -- 添加更多...
       },
 
