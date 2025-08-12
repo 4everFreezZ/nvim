@@ -29,7 +29,6 @@ return {
         "cmp",
         "dap",
         "gitsigns",
-        "which-key",
       },
     })
     -- Enable theme
