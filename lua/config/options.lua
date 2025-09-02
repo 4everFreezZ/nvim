@@ -3,4 +3,4 @@
 -- Add any additional options here
 vim.lsp.handlers["textDocument/publishDiagnostics"] = function() end
 
-vim.opt.spelllang = { "en", "cjk" }
+vim.opt.spell = false
