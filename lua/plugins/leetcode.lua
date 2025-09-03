@@ -20,5 +20,16 @@ return {
     },
     ---@type boolean
     logging = true,
+
+    storage = {
+      home = vim.fn.stdpath("data") .. "/leetcode", -- 数据存储
+      cache = vim.fn.stdpath("cache") .. "/leetcode", -- 缓存目录
+    },
+
+    plugins = {
+      non_standalone = true,
+    },
+
+    image_support = false,
   },
 }
